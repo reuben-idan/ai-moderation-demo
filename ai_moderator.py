@@ -20,6 +20,10 @@ import sys
 import requests
 import json
 import re
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # -------- CONFIGURATION --------
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
